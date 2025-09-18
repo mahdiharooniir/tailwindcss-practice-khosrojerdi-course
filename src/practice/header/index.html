@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/output.css">
+</head>
+<body class="bg-slate-950 font-vazir">
+
+    <nav class="shadow-sm shadow-sky-800  text-gray-200 bg-sky-700">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex justify-between">
+                <div class="flex gap-16 items-center">
+                    <a href="" class="flex items-center py-4">
+                        <span class="text-2xl font-semibold">ژرفار توسعه</span>
+                    </a>
+                    <div class="hidden md:flex items-center font-medium text-md gap-6">
+                        <a href="#" class="border-b-3 border-sky-600 transition duration-300">خانه</a>
+                        <a href="#" class="py-4 hover:text-sky-500 transition duration-300">خدمات</a>
+                        <a href="#" class="py-4 hover:text-sky-500 transition duration-300">درباره ما</a>
+                        <a href="#" class="py-4 hover:text-sky-500 transition duration-300">تماس با ما</a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center gap-2 text-md font-semibold">
+                    <button class="hover:bg-sky-500 rounded-md px-4 py-2 transition duration-300">ورود</button>
+                    <button class="bg-sky-600 hover:bg-sky-500  rounded-md px-2 py-2 transition duration-300">ثبت نام</button>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="show-menu" class="py-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="mobile-menu" class="bg-sky-700 border-t-2 border-sky-600 text-gray-200 text-md font-medium hidden md:hidden">
+        <ul class="">
+            <li><a href="" class="py-3 block bg-sky-500 px-6 transition duration-200">خانه</a></li>
+            <li><a href="" class="py-3 block px-6 hover:bg-sky-500 focus:bg-sky-500 transition duration-300">خدمات</a></li>
+            <li><a href="" class="py-3 block px-6 hover:bg-sky-500 focus:bg-sky-500 transition duration-300">دباره ما</a></li>
+            <li><a href="" class="py-3 block px-6 hover:bg-sky-500 focus:bg-sky-500 transition duration-300">تماس با ما</a></li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
